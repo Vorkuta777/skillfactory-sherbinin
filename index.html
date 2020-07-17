@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script defer="" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header-wrapper">
+			<div class="site-menu">
+			<a href="#" onclick="slowScroll('#Home')">Home</a>
+			<a href="Portfolio.html" onclick="slowScroll('#Portfolio')">Portfolio</a>
+			<a href="about/us.html" onclick="slowScroll('#About')">About us</a>
+			<a href="" onclick="slowScroll('#Contact')">Contact</a>
+		</div>
+	</div>
+	</header>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		function slowScroll(id) {
+      $('body').animate({
+        scrollTop: $(id).offset().top 
+      },500);
+     }
+	</script>
+	 <main>
+		<div class="intro">
+		 <div class="intro-wrapper">
+		  <h1>OUR STRONG<br> ORGANAISATION</h1>
+		  <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+		  tempor incididunt ut labore et. ectetur adig ipis cing elit,sed do eiusmod
+	   tempor incididunt.</p>
+	   <h2><a class="contact-link" href="">Contact us</a></h2>
+     </div>
+     <a href=""><img class="intro-image" src="images/woman-in-red.jpg" alt="Офис" width="551" height="356"></a>
+       </div>
+       <div class="services">
+       	<div class="service-lead-wrapper">
+       	 <div><h2 class="service-heding">DO YOU KNOW WE CAN<br>PROVIDE FOR YOU&</h2>
+       		<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+		       tempor incididunt ut labore et. ectetur adig ipis cing elit,sed do eiusmod
+	        tempor incididunt</p></div>
+        </div>
+         <div class='service-wrapper'> 
+          <div class="service"><h2>Managment</h2>
+          Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+		      tempor incididunt ut labore et. ectetur adig ipis cing elit,sed do eiusmod
+	       tempor incididunt</div> 
+       	   <div class="service"><h2>UL/Ux Design</h2>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+		      tempor incididunt ut labore et. ectetur adig ipis cing elit,sed do eiusmod
+	       tempor incididunt</div>
+	       <div class="service"><h2>Logo/branding</h2>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+		      tempor incididunt ut labore et. ectetur adig ipis cing elit,sed do eiusmod
+	       tempor incididunt</div>
+	       <div class="service"><h2>Animation</h2>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+		      tempor incididunt ut labore et. ectetur adig ipis cing elit,sed do eiusmod
+	       tempor incididunt</div>
+	   </div>
+       </div>
+       <div class="feature-products">
+       	<div class="feature-header">
+       	 <h2 class="feature-heading">Feature products</h2>
+       	 <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+       	 <hr class="header-line">
+        </div>
+        <ul class="products-filter">
+       	<li><a class="Activ" href="">All</a></li>
+       	<li><a href="">Print temlate</a></li>
+       	<li><a href="">Web template</a></li>
+		<li><a href="">User interface</a></li>
+		<li><a href="">Mock-up</a></li>	
+        </ul>
+        <div class="products-wrapper">
+				<img class="product" src="images/work-1.jpg" alt="Скриншот макета">
+				<img class="product" src="images/work-2.jpg" alt="Скриншот макета">
+				<img class="product" src="images/work-3.jpg" alt="Скриншот макета">
+				<img class="product" src="images/work-4.jpg" alt="Скриншот макета">
+				<img class="product" src="images/work-5.jpg" alt="Скриншот макета">
+				<img class="product" src="images/work-6.jpg" alt="Скриншот интерфейса">
+				<img class="product" src="images/work-7.jpg" alt="Скриншот интерфейса">
+				<img class="product" src="images/work-8.jpg" alt="Скриншот интерфейса">
+	    </div>
+	   </div>
+	</main>
+	<footer>
+	  <form class="nav" action="https:/google.com/search" method="GET">
+	  <label for='login'>"Поиск через Google: "</label>	
+      <input type="search" name="q" id='login' placeholder="Введите поисковый запрос">
+      <button type="submit">Отправить</button>
+     </form>
+	</footer>
+</body>
+</html>

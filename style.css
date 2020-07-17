@@ -1,0 +1,11 @@
+header {
+	position: absolute;
+    width: 1249px;
+    height: 89px;
+    left: 164px;
+    top: 29px;
+
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

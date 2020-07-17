@@ -1,0 +1,198 @@
+@font-face {
+	font-family: 'Open Sans';
+	fonnt-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Open Sans Regular'),local('OpenSans Regular'),
+	url('../fonts/OpenSans-Regular.ttf') format('ttf') ;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E0E0E0;
+}
+
+.header-wrapper{
+	position: absolute;
+    width: 1249px;
+    height: 89px;
+    left: 164px;
+    top: 29px;
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.site-menu {
+	display: inline-block;
+}
+
+.site-menu > a {
+	display: inline-block;
+	padding: 42px 25px 30px;
+	color: #E0E0E0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.site-menu > a:hover {
+	background-color: #ff3f40;
+}
+
+.intro {
+	display: flex;
+	background-color: #E0E0E0;
+	width: 1249px;
+	padding: 108px 0 129px;
+}
+
+.intro-wrapper{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-right: 68px;
+}
+
+.intro-wrapper h1 {
+	margin: 0;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.intro-text {
+	margin-bottom: 58px;
+	color: rgba(0,0,0,0.7);
+}
+
+.contact-link {
+	color: #ffffff;
+	display: inline-block;
+	background-color: #FF2D2D;
+	width: 227px;
+	padding: 22px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+
+
+.services {
+	display: flex;
+	padding-top: 106px;
+	padding-bottom: 53px;
+	border-bottom: 1px solid #ececec;
+	
+}
+
+.service-lead-wrapper {
+	flex: 1 1 502px;
+	/* Свойство flex совмещает в себе три свйоства grow shrink и basis. Первые два позволяют сказать, что флекс элемент может расширятсья и сжиматься. Третье задает базовую ширину, которая расчитывается до всего остального */
+	max-width: 502px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+
+.service-heding {
+	position: relative;
+    bottom: 5px;
+	margin-bottom: 27px;
+}
+
+.service-wrapper { 
+    flex: 1 1;
+	max-width: 609px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service {
+	flex: 1 1 288px;
+	width: 288px;
+	margin-bottom: 50px;
+}
+
+.nav {
+	display: flex;
+	flex: end;
+	margin-left: 300px;
+	padding: 50px;
+
+
+}
+
+.feature-products {
+	padding-top: 94px;
+	padding-bottom: 52px
+}
+
+.feature-header {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 67px;
+}
+
+.feature-heading {
+	padding-left: 14px;
+	margin-bottom: 16px;
+}
+
+.feature-text {
+	max-width: 500px;
+	margin: 0 auto 30px;
+	opacity: 0.7;
+}
+
+.products-filter {
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
+.products-filter a {
+	position: relative;
+    left: 45px;
+	color: #000;
+	margin-right: 55px;
+	font-size: 22px;
+	font-family: 'OpenSans SemiBold';
+	text-transform: uppercase;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.products-filter a.active {
+	color: #ff2d2d;
+	opacity: 1;
+}
+
+.products-filter a:hover {
+	color: #ff2d2d;
+}
+
+.products-wrapper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.product {
+	flex: 1 1 24%;
+	min-width: 250px;
+	max-width: 299px;
+	height: 291px;
+	margin-bottom: 18px;
+	object-fit: cover;
+}
